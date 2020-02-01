@@ -17,7 +17,7 @@
 
 ```json
 {
-  "subscribe_url": "https://api.xinjiecloud.xyz/link/MPQJIroZ43ZWXJGi?mu=18348",
+  "subscribe_url": "xxxxxxxxx",
   "ss_local_exec": "/usr/local/bin/ss-local",
   "app_home": "/usr/local/ss-helper"
 }
