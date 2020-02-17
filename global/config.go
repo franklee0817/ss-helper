@@ -4,7 +4,8 @@ package global
 type AppConfig struct {
 	SubscribeURL string `json:"subscribe_url"` // 订阅地址
 	SSLBinary    string `json:"ss_local_exec"` // ss-local可执行文件地址
-	AppHome      string `json:"app_home"`      // 本程序安装目录
+	EnableSwitch bool   `json:"enable_auto_switch"`
+	AppHome      string `json:"app_home"` // 本程序安装目录
 }
 
 // SSConfigFile 程序生成的ss-local配置文件名
